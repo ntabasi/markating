@@ -1,0 +1,52 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#e6e7e8"
+        android:padding="6dp">
+
+
+        <ImageView
+            android:id="@+id/empty_cart_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="35dp"
+            android:src="@drawable/img_empty_cart" />
+
+        <Button
+            android:id="@+id/empty_cart_enter_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/empty_cart_imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/selector_enter_category" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@id/empty_cart_enter_category"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_toLeftOf="@id/empty_cart_enter_category"
+            android:background="@drawable/divider_pattern" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/empty_cart_enter_category"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/empty_cart_enter_category"
+            android:background="@drawable/divider_pattern" />
+    </RelativeLayout>
+
+</ScrollView>

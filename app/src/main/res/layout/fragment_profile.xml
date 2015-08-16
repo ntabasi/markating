@@ -1,0 +1,52 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:fillViewport="true">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ededed"
+        android:paddingLeft="20dp"
+        android:layout_gravity="center"
+        android:paddingRight="20dp"
+        android:scrollbars="none"
+        tools:context=".AccountFragment">
+
+        <ImageView
+            android:id="@+id/profile_exit_imageView"
+            android:layout_width="210dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/selector_exit_btn"
+            android:clickable="true" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@id/profile_exit_imageView"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_toLeftOf="@id/profile_exit_imageView"
+            android:background="@drawable/divider_pattern" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/profile_exit_imageView"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/profile_exit_imageView"
+            android:background="@drawable/divider_pattern" />
+
+
+    </RelativeLayout>
+
+</ScrollView>
+

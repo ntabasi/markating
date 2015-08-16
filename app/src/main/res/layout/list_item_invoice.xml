@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/invoice_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_floating_material_dark"
+    android:dividerPadding="10dp"
+    android:orientation="horizontal"
+    android:weightSum="21">
+
+
+    <TextView
+        android:id="@+id/invoice_item_state_textView"
+        android:layout_width="0dp"
+        android:text="payed"
+        android:paddingLeft="1dp"
+        android:paddingRight="1dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="3.25"
+        android:gravity="center"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+
+        android:id="@+id/invoice_item_date_textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="2.10"
+        android:gravity="center"
+        android:padding="1dp"
+        android:textColor="#ffffffff"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="14.15"
+        android:layout_gravity="right|center_vertical"
+        android:orientation="vertical"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:id="@+id/invoice_item_numText_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="10dp"
+            android:text="@string/num"
+            android:textColor="#ffffffff"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/invoice_item_invoiceNumber_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/invoice_item_numText_textView"
+            android:paddingTop="10dp"
+            android:text="ثبت نشده"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/invoice_item_priceText_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/invoice_item_numText_textView"
+            android:padding="10dp"
+            android:text="@string/price"
+            android:textColor="#ffffffff"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/invoice_item_invoicePrice_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="مبلغ فاکتور"
+            android:layout_below="@+id/invoice_item_invoiceNumber_textView"
+            android:layout_toLeftOf="@+id/invoice_item_priceText_textView"
+            android:paddingTop="20dp"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/invoice_item_counter_textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1.5"
+        android:autoText="false"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="#ffffffff"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

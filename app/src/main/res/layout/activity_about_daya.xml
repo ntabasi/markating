@@ -1,0 +1,88 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    tools:context="ir.dayasoft.teacher.Fragment.AboutFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top">
+
+        <ImageView
+            android:id="@+id/about_logo_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/img_login_logo" />
+
+        <ImageView
+            android:id="@+id/about_item1_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about_logo_imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+          android:visibility="gone"
+            android:src="@drawable/about_item1_img" />
+
+        <ImageView
+            android:id="@+id/about_item2_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about_item1_imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/about_item2_img" />
+
+        <ImageView
+            android:id="@+id/about_siteURL_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/about_url_img"
+            android:layout_alignTop="@id/about_item2_imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"/>
+
+        <ImageView
+            android:id="@+id/about_aparat_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/about_aparat_img"
+            android:layout_alignTop="@id/about_item2_imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="83dp"/>
+
+        <ImageView
+            android:id="@+id/about_email_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/about_email_img"
+            android:layout_alignTop="@id/about_item2_imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="125dp"/>
+
+        <ImageView
+            android:id="@+id/about_tell_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/about_tell_img"
+            android:layout_alignTop="@id/about_item2_imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="155dp"/>
+
+        <ImageView
+            android:id="@+id/about_daya_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about_item2_imageView"
+            android:src="@drawable/daya_logo_img"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"/>
+
+    </RelativeLayout>
+
+
+</ScrollView>

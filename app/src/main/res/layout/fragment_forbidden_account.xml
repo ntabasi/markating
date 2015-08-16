@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#e6e7e8"
+    android:padding="6dp">
+
+
+    <ImageView
+        android:id="@+id/empty_cart_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="65dp"
+        android:src="@drawable/icn_alert" />
+
+    <TextView
+        android:id="@+id/forbidden_content_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/empty_cart_imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="برای ورود به این قسمت باید لاگین کنید."
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
+

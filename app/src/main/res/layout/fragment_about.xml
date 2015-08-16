@@ -1,0 +1,122 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e6e7e8"
+    tools:context="com.daya.sofaproj.sofaproj.AboutActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/about_logo_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/about_logo" />
+
+        <TextView
+            android:id="@+id/about_title_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about_logo_imageView"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"
+            android:gravity="center"
+            android:text="گروه تجهیزات استیل پارس"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/about_content1_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/about_logo_imageView"
+             android:layout_alignRight="@+id/about_logo_imageView"
+            android:layout_below="@id/about_title_textView"
+            android:background="@drawable/frame_text_about_us"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:lineSpacingExtra="3dp"
+            android:padding="10dp"
+            android:text="گروه تجهیزات استیل پارس بااندوخته ای از یک دهه تجربه و بادارا بودن کادر متخصص ، کار آزموده و زبده با طراحی و تجهیز بالغ بر یکصد مجموعه اعم از هتل ،رستوران، فست فود  و کافی شاپ مطابق با آخرین تکنولوژی و استاندارد های روز دنیا،فعالیت مستمر و پویایی داشته به گونه ای که در این مجموعه صنعت صاحب نام گشته است.این مجموعه با یاری خداوند افتخار دارد که طی سال های اخیر به صورت تخصصی و کارشناسانه در خدمت صنایع غذایی کشور باشد.\n\n
+     مدیریت گروه تجهیزات استیل پارس- گیلانی
+"
+></TextView>
+
+      <!--  <TextView
+            android:id="@+id/about_title2_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about_content1_textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="ایتالیا تنها یک فروشنده مبل نیست"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/about_content2_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about_title2_textView"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="طراحی شیک و مدرن سازگار با آناتومی بدن حس خوب زندگی همگام با خانواده ی ایتالیا کالیته رنگهای متنع و به روز . . . " />
+
+        <TextView
+            android:id="@+id/about_title3_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/about_content2_textView"
+            android:layout_marginTop="15dp"
+            android:text="ابعاد سفارشی:"
+            android:textColor="#03a9f4"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/about_content3_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about_title3_textView"
+            android:gravity="right"
+            android:text="تمامی مبلمان های ایتالیا با توجه به نیاز مشتری و ابعاد منزل و نوع استفاده امکان تغییر سایز و سفارشی سازی دارند." />
+
+        <TextView
+            android:id="@+id/about_title4_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/about_content3_textView"
+            android:layout_marginTop="15dp"
+            android:text="کیفیت برتر"
+            android:textColor="#03a9f4"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/about_content4_textView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about_title4_textView"
+            android:gravity="right"
+            android:text="با استعانت از عنایت الهی و تکیه بر توان داخلی کلیه محصولات در کشور ایران تولید می شود." />
+
+        <ImageView
+            android:id="@+id/about_button_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about_content4_textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/selector_about_show_agent" />-->
+
+
+    </RelativeLayout>
+</ScrollView>

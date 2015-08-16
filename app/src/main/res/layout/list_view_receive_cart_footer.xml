@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ededed">
+
+    <View
+        android:id="@+id/invoiceDetail_footer_invoiceNumber_textView"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/global_gray_divider" />
+
+
+    <ImageView
+        android:id="@+id/invoiceDetail_footer_attentionIcon_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/icn_attention" />
+
+    <TextView
+        android:id="@+id/invoiceDetail_footer_rowCounter_textView"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/invoiceDetail_footer_attentionIcon_imageView"
+        android:layout_alignTop="@id/invoiceDetail_footer_attentionIcon_imageView"
+        android:layout_toLeftOf="@id/invoiceDetail_footer_attentionIcon_imageView"
+        android:gravity="center"
+        android:text="تعداد کل اقلام: "/>
+
+
+    <View
+        android:id="@+id/invoiceDetail_footer_divider_view"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/invoiceDetail_footer_attentionIcon_imageView"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/divider_pattern" />
+
+    <TextView
+        android:id="@+id/invoiceDetail_footer_sumPrice_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/invoiceDetail_footer_divider_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#7c7c7c"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:text= "جمع کل فاکتور:  "
+        android:textColor="@android:color/white" />
+
+
+
+</RelativeLayout>

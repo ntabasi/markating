@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dp"
+    tools:context=".CategoryActivity">
+
+    <ListView
+        android:id="@+id/branch_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10dp"
+        android:layout_margin="10dp"
+        android:layout_above="@+id/cart_item_attention_imageView" />
+
+
+</RelativeLayout>
+

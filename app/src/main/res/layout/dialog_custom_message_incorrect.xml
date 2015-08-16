@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:background="@drawable/shape_rectangle_blue_dialogs"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/dialog_error"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/dialog_custom_message_content_textView"
+        style="@style/dialog_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_confirm" />
+
+    <ListView
+        android:id="@+id/dialog_custom_message_content_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:visibility="gone"
+        style="@style/dialog_message"
+        />
+    <ImageView
+        android:layout_margin="20dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:src="@drawable/selector_dialog_cancel"
+        android:id="@+id/dialog_custom_message_button_imageView"
+        android:layout_gravity="center"/>
+
+    <View
+        android:background="@drawable/shape_rectangle_blue_dialogs"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"/>
+
+
+
+</LinearLayout>

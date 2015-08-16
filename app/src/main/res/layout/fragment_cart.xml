@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:background="#ededed"
+    tools:context=".CartActivity">
+
+    <ListView
+        android:id="@+id/cart_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:background="#ededed"
+        android:dividerHeight="2dp"
+        android:divider="#ededed"
+        android:layout_above="@+id/cart_item_attention_imageView"
+        />
+
+    <ImageView
+        android:id="@+id/cart_item_attention_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/cart_sumPrice_relativeLayout"
+        android:layout_margin="5dp"
+        android:src="@drawable/icn_attention" />
+
+    <TextView
+        android:id="@+id/cart_footer_attention_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/cart_item_attention_imageView"
+        android:layout_alignTop="@id/cart_item_attention_imageView"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@id/cart_item_attention_imageView"
+        android:gravity="center|top"
+        android:text="برای حذف یک محصول آن را به سمت راست بکشید" />
+
+    <RelativeLayout
+        android:id="@+id/cart_sumPrice_relativeLayout"
+        android:layout_width="match_parent"
+        android:background="@color/grass_green_background"
+        android:layout_alignParentBottom="true"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/cart_item_accept_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/icn_nike"
+            android:layout_alignParentRight="true"
+            android:padding="5dp"
+            android:background="@drawable/shape_cart_submit"
+            />
+
+        <TextView
+            android:id="@+id/cart_item_sumPrice_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@id/cart_item_accept_imageView"
+            android:textColor="@android:color/white"
+            android:text="جمع کل: 250000 ریال"
+            android:paddingBottom="3dp"
+            android:gravity="center|top"
+            android:layout_centerVertical="true"
+            android:textSize="22dp"
+            />
+
+
+    </RelativeLayout>
+</RelativeLayout>
+
+
+

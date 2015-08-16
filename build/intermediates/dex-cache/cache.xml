@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\androidproject\SteelPars\steelpars\app\libs\ksoap2-android-assembly-3.0.0-jar-with-dependencies.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="224c93f1824fa17b96db7250c2e5e2703d45e052">
+        <dex dex="D:\androidproject\SteelPars\steelpars\app\build\intermediates\pre-dexed\daya1\debug\ksoap2-android-assembly-3.0.0-jar-with-dependencies-ae4a4397d5a42854d441cfff83315f5f8e27972f.jar" />
+    </item>
+    <item
+        jar="D:\androidproject\SteelPars\steelpars\app\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a43cf9e271b5bc564e880a0a4be63ab9c69c97f8">
+        <dex dex="D:\androidproject\SteelPars\steelpars\app\build\intermediates\pre-dexed\daya1\debug\nineoldandroids-2.4.0-10727e7efc24d2b7580637eddff6fac1821336a0.jar" />
+    </item>
+    <item
+        jar="C:\Users\navid\sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="D:\androidproject\SteelPars\steelpars\app\build\intermediates\pre-dexed\daya1\debug\support-annotations-22.1.1-a4a5497ee2ead66998cb68aeb9a8ecae78ebea3a.jar" />
+    </item>
+    <item
+        jar="C:\Users\navid\.gradle\caches\modules-2\files-2.1\com.intellij\annotations\12.0\bbcf6448f6d40abe506e2c83b70a3e8bfd2b4539\annotations-12.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="bbcf6448f6d40abe506e2c83b70a3e8bfd2b4539">
+        <dex dex="D:\androidproject\SteelPars\steelpars\app\build\intermediates\pre-dexed\daya1\debug\annotations-12.0-05eba8765d255015ae791c6072441214c1591f52.jar" />
+    </item>
+    <item
+        jar="D:\androidproject\SteelPars\steelpars\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="D:\androidproject\SteelPars\steelpars\app\build\intermediates\pre-dexed\daya1\debug\internal_impl-22.1.1-2bef5fe7c468f67bbb14cea188b4614a89a9c778.jar" />
+    </item>
+    <item
+        jar="D:\androidproject\SteelPars\steelpars\app\build\intermediates\exploded-aar\it.sephiroth.android.library.picasso\picasso\2.3.5.3\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5b7581dad66dbd31d458540d0105dca88772e378">
+        <dex dex="D:\androidproject\SteelPars\steelpars\app\build\intermediates\pre-dexed\daya1\debug\classes-292a515de7139023cb3b96213dfb7b05f04bd305.jar" />
+    </item>
+    <item
+        jar="D:\androidproject\SteelPars\steelpars\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="D:\androidproject\SteelPars\steelpars\app\build\intermediates\pre-dexed\daya1\debug\classes-dfb77332effce2ecdef143acf4e64fb168d9f273.jar" />
+    </item>
+    <item
+        jar="D:\androidproject\SteelPars\steelpars\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="D:\androidproject\SteelPars\steelpars\app\build\intermediates\pre-dexed\daya1\debug\classes-ff323fc2e4b5c6038cff39e7ee9317d2754a0c45.jar" />
+    </item>
+    <item
+        jar="C:\Users\navid\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp-urlconnection\1.6.0\375c2206eb7e52976955d0f8737be5e0ec9cf667\okhttp-urlconnection-1.6.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="375c2206eb7e52976955d0f8737be5e0ec9cf667">
+        <dex dex="D:\androidproject\SteelPars\steelpars\app\build\intermediates\pre-dexed\daya1\debug\okhttp-urlconnection-1.6.0-66e29012a837f1ea775a4bf47c1b35080c2698f4.jar" />
+    </item>
+    <item
+        jar="C:\Users\navid\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\1.6.0\e32c6b4bee8b61f0de12b337c48df0f5df8caccc\okhttp-1.6.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e32c6b4bee8b61f0de12b337c48df0f5df8caccc">
+        <dex dex="D:\androidproject\SteelPars\steelpars\app\build\intermediates\pre-dexed\daya1\debug\okhttp-1.6.0-e895d4a3021f2bd202b7815709e2ebcda1d1f32e.jar" />
+    </item>
+
+</items>

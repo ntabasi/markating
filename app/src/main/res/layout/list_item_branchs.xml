@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contact_layout"
+    android:layout_width="match_parent"
+    android:layout_height="120dp">
+
+    <ImageView
+        android:id="@+id/branchItem_icon_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:background="@drawable/branch_icon_background"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:src="@drawable/branch_icon" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_toRightOf="@id/branchItem_icon_imageView"
+        android:background="@drawable/branch_background">
+        <TextView
+            android:id="@+id/branchItem_title_textView"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="نمایندگی ورزنده"
+            android:textColor="#fff"
+            android:textSize="17sp" />
+
+        <View
+            android:id="@+id/branchItem_divider_view"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="@drawable/branch_divider"
+            android:layout_below="@id/branchItem_title_textView"
+            />
+        <ImageView
+            android:id="@+id/branchItem_location_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_below="@id/branchItem_divider_view"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/agent_map_object" />
+
+        <TextView
+            android:id="@+id/branchItem_location_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/branchItem_location_imageView"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@id/branchItem_location_imageView"
+            android:text="تهران، میدان پاستور، کنار گل فروشی ضعیم، کوچه علیرضا شاطرپور" />
+
+
+        <ImageView
+            android:id="@+id/branchItem_tell_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_below="@id/branchItem_location_textView"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/agents_tell_objects" />
+
+        <TextView
+            android:id="@+id/branchItem_tell_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/branchItem_tell_imageView"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@id/branchItem_tell_imageView"
+            android:text="02166412627" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
+

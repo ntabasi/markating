@@ -1,0 +1,161 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/invoiceDetail_footer_invoiceNumber_textView"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/global_gray_divider" />
+
+
+    <ImageView
+        android:id="@+id/invoiceDetail_footer_attentionIcon_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/icn_attention" />
+
+    <TextView
+        android:id="@+id/invoiceDetail_footer_rowCounter_textView"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/invoiceDetail_footer_attentionIcon_imageView"
+        android:layout_alignTop="@id/invoiceDetail_footer_attentionIcon_imageView"
+        android:layout_toLeftOf="@id/invoiceDetail_footer_attentionIcon_imageView"
+        android:gravity="center"
+        android:text="تعداد کل اقلام: "/>
+
+    <ImageView
+        android:id="@+id/invoiceDetail_footer_delivery_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/invoiceDetail_footer_attentionIcon_imageView"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="3dp"
+        android:visibility="gone"
+        android:src="@drawable/icn_bus"/>
+    <TextView
+        android:id="@+id/invoiceDetail_footer_deliveryCost_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="هزینه ارسال: "
+        android:layout_alignTop="@id/invoiceDetail_footer_delivery_imageView"
+        android:layout_alignRight="@id/invoiceDetail_footer_rowCounter_textView"
+        android:layout_marginTop="2dp"
+        android:visibility="gone"
+        />
+
+    <View
+        android:id="@+id/invoiceDetail_footer_divider_view"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/invoiceDetail_footer_deliveryCost_textView"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/divider_pattern" />
+
+    <TextView
+        android:id="@+id/invoiceDetail_footer_sumPrice_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/invoiceDetail_footer_rowCounter_textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#7c7c7c"
+
+        android:paddingTop="10dp"
+        android:paddingBottom="17dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="18sp"
+        android:gravity="center|top"
+        android:text= "جمع کل فاکتور:  "
+        android:textColor="@android:color/white" />
+
+    <RelativeLayout
+        android:id="@+id/invoiceDetail_footer_paymentType_relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/invoiceDetail_footer_sumPrice_textView"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/invoiceDetail_footer_paymentType_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:text="نحوه پرداخت: واریز به حساب"/>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="2dp"
+            android:visibility="gone"
+            android:layout_toLeftOf="@id/invoiceDetail_footer_paymentType_textView"
+            android:src="@drawable/pay_method_receipt_object"/>
+
+        </RelativeLayout>
+
+    <TextView
+        android:id="@+id/invoiceDetail_footer_payment_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/invoiceDetail_footer_paymentType_relativeLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_corner_white"
+        android:padding="10dp"
+        android:visibility="gone"
+        android:text="بیعانه پرداخت شده: 50000 ریال"
+        android:textColor="#ffcf6401" />
+    <TextView
+        android:id="@+id/invoiceDetail_footer_status_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/invoiceDetail_footer_paymentType_relativeLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_corner_white"
+        android:paddingTop="10dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+
+        android:gravity="center|top"
+        android:visibility="visible"
+        android:text="بیعانه پرداخت شده: 50000 ریال"
+        android:textColor="#ffcf6401" />
+
+    <TextView
+        android:id="@+id/invoiceDetail_footer_remain_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/invoiceDetail_footer_payment_textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="مانده: "
+        android:visibility="gone"
+        android:textColor="#ffcc0000" />
+
+    <TextView
+        android:id="@+id/invoiceDetail_footer_code_textView"
+        android:layout_width="wrap_content"
+        android:text="شناسه پرداخت: "
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:visibility="gone"
+        android:layout_below="@id/invoiceDetail_footer_remain_textView"
+        android:layout_height="wrap_content" />
+
+
+
+</RelativeLayout>

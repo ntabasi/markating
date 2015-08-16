@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="warranty_explain">ضمانت نامه یا پشتوانه که ریشه آن٬ ضمانت٬ به معنای پذیرفتاری٬ تاوان داری و پای
+        ندانی میباشد[۱] و با عنوان گارانتی و وارانتی نیز شناخته می‌شود٬ آن است که ارائه دهنده خدمات یا فروشنده در مقابل محصول یا خدماتی که ارائه می کند، و معمولاً متعهد می شود در صورت نقض ادعای خود، حاضر به تعمیر یا تعویض کالا یا پرداخت مبلغی خواهد شد. نقض عهد زمانی اتفاق می افتد که این تعهد به نحوی اجرا نشود، یعنی کالا نقصی داشته باشد یا مطابق میل یا انتظار مشتری نباشد.</string>
+    <string name="warranty_date_factor">تاریخ فاکتور</string>
+    <string name="warranty_date">روز</string>
+    <string name="warranty_month">ماه</string>
+    <string name="warranty_year">سال</string>
+    <string name="warranty_num_factor">شماره فاکتور خرید</string>
+    <string name="title_activity_warranty">WarrantyActivity</string>
+    <string name="title_actvity_warantee">WarranteeActivity</string>
+    <string name="title_activity_product">ProductActivity</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="about_logo">"@drawable/about_logo"</string>
+    <string name="title_activity_agents">AgentsActivity</string>
+    <string name="agent_address">ادرس:</string>
+    <string name="agent_tell">تلفن:</string>
+    <string name="dialog_confirm">اطلاعات با موفقیت ثبت گردید</string>
+    <string name="title_activity_pay_method">PayMethodActivity</string>
+    <string name="dialog_need_user_name">نرم افزار قصد ارسال پیامک درخواست شناسه و رمز عبور را دارد</string>
+    <string name="dialog_internet_error">اینترنت شما قطع میباشد لطفا پس از رفع اشکال مجددا تلاش نمایید</string>
+    <string name="dialog_server_error">خطا در ارتباط با سرور</string>
+    <string name="dialog_update">نرم افزار در حال بروز رسانی / ارتباط با سرور است</string>
+    <string name="pay_method_choice">یکی از حالت های پرداخت را انتخاب نمایید</string>
+    <string name="title_activity_pay_method_choice">PayMethodChoice</string>
+    <string name="name_family">نام و نام خانوادگی</string>
+    <string name="birth_day">تاریخ تولد</string>
+    <string name="lost_password">رمز عبور را فراموش کرده ام</string>
+    <string name="num">شماره فاکتور</string>
+    <string name="price">مبلغ فاکتور</string>
+    <string name="date">تاریخ</string>
+    <string name="explain">توضیحات</string>
+    <string name="title_activity_first">First</string>
+    <string name="title_activity_qualification">Qualification</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_detail_gride">DetailGrideActivity</string>
+    <string name="title_activity_factor_list">FactorListActivity</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+
+    <string-array name="dokmeha">
+        <item>اسفندونه</item>
+        <item>تنظیمات</item>
+        <item>درباره ما</item>
+        <item>خروج</item>
+    </string-array>
+    <string-array name="navigation_drawer_items_array">
+        <item>Create</item>
+        <item>Read</item>
+        <item>Help</item>
+    </string-array>
+
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="account">حساب کاربری</string>
+    <string name="product">محصولات</string>
+    <string name="basket">سبد خرید</string>
+    <string name="factors">فاکتورها</string>
+    <string name="originality">بررسی اصالت کالا</string>
+    <string name="warranty">شرایط گارانتی</string>
+    <string name="activation">فعال سازی گارانتی</string>
+    <string name="use_warranty">استفاده از گارانتی</string>
+    <string name="brands">استیل پارس</string>
+    <string name="agents">نمایندگی های فروش</string>
+    <string name="about_us">درباره سازنده</string>
+    <string name="refresh">بروز رسانی</string>
+    <string name="password">تغییر رمز</string>
+    <string name="qualification">شکستن یا خرد شدن </string>
+
+    <string-array name="month_array">
+        <item>فروردین</item>
+        <item>اردیبهشت</item>
+        <item>خرداد</item>
+        <item>تیر</item>
+        <item>مرداد</item>
+        <item>شهریور</item>
+        <item>مهر</item>
+        <item>آبان</item>
+        <item>آذر</item>
+        <item>دی</item>
+        <item>بهمن</item>
+        <item>اسفند</item>
+    </string-array>
+    <string-array name="week_array">
+        <item>شنبه</item>
+        <item>یکشنبه</item>
+        <item>دوشنبه</item>
+        <item>سه شنبه</item>
+        <item>چهارشنبه</item>
+        <item>پنجشنبه</item>
+        <item>جمعه</item>
+    </string-array>
+    <string-array name="day_array">
+        <item>اول</item>
+        <item>دوم</item>
+        <item>سوم</item>
+        <item>چهارم</item>
+        <item>پنجم</item>
+        <item>ششم</item>
+        <item>هفت</item>
+        <item>هشت</item>
+        <item>نه</item>
+        <item>ده</item>
+        <item>یازده</item>
+        <item>دوازده</item>
+        <item>سیزده</item>
+        <item>چهارده</item>
+        <item>پانزده</item>
+        <item>شانزده</item>
+        <item>هفده</item>
+        <item>هجده</item>
+        <item>نوزده</item>
+        <item>بیست</item>
+        <item>بیست و یک</item>
+        <item>بیست و دوم</item>
+        <item>بیست و سوم</item>
+        <item>بیست و چهار</item>
+        <item>بیست و پنج</item>
+        <item>بیست و شش</item>
+        <item>بیست و هفت</item>
+        <item>بیست و هشت</item>
+        <item>بیست و نه</item>
+        <item>سی</item>
+        <item>سی و یک</item>
+    </string-array>
+    <string-array name="counter">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+
+    <string name="undo">Undo</string>
+    <string name="undoall">Undo All</string>
+    <string name="title_activity_t">T</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_about_daya">AboutDaya</string>
+
+
+
+
+</resources>

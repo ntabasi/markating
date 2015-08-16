@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="مشتری گرامی اطلاعات شما توسط مدیریت باید تایید شود در صورتیکه طی 24 ساعت حساب شما فعال نشد با شماره زیر تماس بگیرید"
+        android:id="@+id/textView"
+        android:layout_margin="40dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:background="@drawable/frame_text_about_us"
+        android:layout_weight="0.12" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="09154129315"
+        android:id="@+id/textView2"
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/frame_text_about_us"
+        android:layout_weight="0.12" />
+
+</LinearLayout>

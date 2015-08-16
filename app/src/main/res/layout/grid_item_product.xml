@@ -1,0 +1,51 @@
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/product_item_image_imageView"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/product_item_image_height"
+        android:background="#FFFFFF"
+        android:src="@drawable/detail_pic"/>
+
+     <View
+         android:id="@+id/product_item_colorBar_view"
+         android:layout_width="wrap_content"
+         android:layout_height="5dp"
+         android:background="@color/safe_violet_1"
+         android:layout_below="@id/product_item_image_imageView" />
+    <TextView
+        android:id="@+id/product_item_title_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/product_item_title_height"
+        android:text="دراور 1"
+        android:singleLine="true"
+        android:textSize="@dimen/product_item_title_font_size"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+
+        android:gravity="center|top"
+        android:textColor="@android:color/white"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/safe_violet_2"
+        android:layout_alignLeft="@id/product_item_image_imageView"
+        android:layout_below="@id/product_item_colorBar_view"
+        android:layout_alignRight="@id/product_item_image_imageView"
+         />
+
+     <TextView
+         android:id="@+id/product_item_price_textView"
+         android:layout_width="match_parent"
+         android:layout_height="@dimen/product_item_price_height"
+         android:textSize="18dp"
+         android:background="@color/safe_violet_3"
+         android:layout_below="@id/product_item_title_textView"
+         android:layout_marginTop="3dp"
+         android:text="2500000 ریال"
+         android:gravity="center"
+         android:textColor="@android:color/white" />
+
+
+</RelativeLayout>

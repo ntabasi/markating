@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/blue_background">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/toolbar_menu_imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="10dp"
+                android:src="@drawable/icn_toolbar_menu" />
+
+            <RelativeLayout
+                android:id="@+id/activity_base_cart_relativeLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"
+                android:padding="5dp"
+                android:layout_toRightOf="@id/toolbar_menu_imageView">
+
+                <ImageView
+                    android:id="@+id/toolbar_basket_imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+
+                    android:src="@drawable/icn_toolbar_basket" />
+
+                <FrameLayout
+                    android:id="@+id/activity_base_frameLayout"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/toolbar_basket_imageView">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/icn_toolbar_circle" />
+
+                    <TextView
+                        android:id="@+id/activity_base_cart_counter_textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="0" />
+                </FrameLayout>
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar">
+        <!-- The main content view -->
+
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <!-- The navigation drawer -->
+        <android.support.v4.view.ViewPager
+            android:id="@+id/activity_base_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v4.view.PagerTitleStrip
+                android:id="@+id/pager_title_strip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:background="#33b5e5"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:textColor="#fff"
+                android:visibility="gone" />
+
+
+        </android.support.v4.view.ViewPager>
+
+        <ListView
+            android:id="@+id/left_drawer"
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:background="@color/drawer_background"
+            android:choiceMode="singleChoice"
+            android:divider="@color/drawer_background"
+            android:dividerHeight="1dp" />
+
+
+    </android.support.v4.widget.DrawerLayout>
+
+</RelativeLayout>

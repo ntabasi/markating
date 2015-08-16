@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:padding="10dp"
+    tools:context=".CartActivity">
+
+    <ListView
+        android:id="@+id/invoiceDetail_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cart_sumPrice_relativeLayout"
+        android:layout_alignParentTop="true"    />
+
+    <LinearLayout
+        android:id="@+id/cart_sumPrice_relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:weightSum="2">
+
+        <ImageView
+            android:id="@+id/receiveCart_cancel_imageView"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/invoiceDetail_listView"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/selector_dialog_cancel" />
+
+        <ImageView
+            android:id="@+id/receiveCart_ok_imageView"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/invoiceDetail_listView"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/selector_dialog_confirm" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+

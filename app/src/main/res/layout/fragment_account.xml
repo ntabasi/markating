@@ -1,0 +1,143 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ededed"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:scrollbars="none"
+        tools:context=".AccountFragment">
+
+        <ImageView
+            android:id="@+id/account_signIn_imageView"
+            android:layout_width="210dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/selector_sign_in_btn"
+            android:clickable="true" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@id/account_signIn_imageView"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_toLeftOf="@id/account_signIn_imageView"
+            android:background="@drawable/divider_pattern" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/account_signIn_imageView"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/account_signIn_imageView"
+            android:background="@drawable/divider_pattern" />
+
+        <TextView
+            android:id="@+id/account_hint_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/account_signIn_imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="اگر قبلاً در سامانه عضو شده اید برای خرید از طریق سیستم وارد شوید."
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/account_userName_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/account_hint_textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/selector_item_warranty_num_factor"
+            android:hint="نام کاربری"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/account_password_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/account_userName_editText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/selector_item_warranty_num_factor"
+            android:hint="کلمه عبور"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:singleLine="true" />
+
+        <ImageView
+            android:id="@+id/account_attention_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/account_password_editText"
+            android:layout_marginTop="5dp"
+            android:visibility="gone"
+            android:src="@drawable/icn_attention" />
+
+        <TextView
+            android:id="@+id/account_forget_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/account_attention_imageView"
+            android:layout_alignTop="@id/account_attention_imageView"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/account_attention_imageView"
+            android:gravity="center"
+            android:visibility="gone"
+            android:text="رمز عبور خود را فراموش کرده ام"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/account_enter_imageView"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/account_attention_imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:clickable="true"
+            android:src="@drawable/selector_enter_btn" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@id/account_enter_imageView"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="25dp"
+            android:layout_toLeftOf="@id/account_enter_imageView"
+            android:background="@drawable/divider_pattern" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/account_enter_imageView"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@id/account_enter_imageView"
+            android:background="@drawable/divider_pattern" />
+
+
+    </RelativeLayout>
+
+</ScrollView>
+

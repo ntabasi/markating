@@ -1,0 +1,67 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "ir.dayasoft.steelpars"
+        minSdkVersion 11
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+
+    productFlavors {
+
+        daya1 {
+            applicationId "ir.dayasoft.shop.daya1"
+            minSdkVersion 11
+            targetSdkVersion 21
+        }
+
+        daya2 {
+            applicationId "ir.dayasoft.shop.daya2"
+            minSdkVersion 11
+            targetSdkVersion 21
+        }
+
+        daya3 {
+            applicationId "ir.dayasoft.shop.daya3"
+            minSdkVersion 11
+            targetSdkVersion 21
+        }
+
+        daya4 {
+            applicationId "ir.dayasoft.shop.daya4"
+            minSdkVersion 11
+            targetSdkVersion 21
+        }
+
+        daya5 {
+            applicationId "ir.dayasoft.shop.daya5"
+            minSdkVersion 11
+            targetSdkVersion 21
+        }
+
+    }
+
+
+
+    }
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:22.1.1'
+    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile files('libs/ksoap2-android-assembly-3.0.0-jar-with-dependencies.jar')
+    compile files('libs/nineoldandroids-2.4.0.jar')
+    compile 'it.sephiroth.android.library.picasso:picasso:2.3.5.3'
+}
